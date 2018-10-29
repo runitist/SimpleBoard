@@ -14,7 +14,7 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>타이틀</h1>
+			<h1><%=flagTitle%></h1>
 		</header>
 		<div class="mid">
 			<nav>

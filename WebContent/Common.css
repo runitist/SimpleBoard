@@ -1,72 +1,105 @@
 @CHARSET "UTF-8";
 
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
-html, body{
+
+html, body {
 	width: 100%;
 	height: 100%;
 }
-.container{
+
+.container {
 	width: 100%;
 	height: 100%;
 }
-header{
+
+header {
 	width: 100%;
 	height: 10%;
 	display: flex;
-	align-items : center;
-	justify-content : center;
+	align-items: center;
+	justify-content: center;
 	background-color: aqua;
 }
-.mid{
+
+.mid {
 	width: 100%;
 	height: 85%;
 	display: flex;
 	flex-direction: rows;
 }
-nav{
+
+nav {
 	width: 10%;
-	height:100%;
+	height: 100%;
 	background-color: black;
 }
-.navul1{
+
+.navul1 {
 	list-style: none;
 }
-.navul1>li{
+
+.navul1>li {
 	width: 100%;
-	height : 50px;
+	height: 50px;
 }
-.navul1>li>a{
+
+.navul1>li>a {
 	text-decoration: none;
 	color: white;
 	display: flex;
 	width: 100%;
-	height : 100%;
-	align-items : center;
-	justify-content : center;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
 }
-.navul1>li>a:HOVER{
+
+.navul1>li>a:HOVER {
 	background-color: red;
 }
-section{
+
+section {
+	padding: 5px;
 	width: 90%;
-	height:100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
 }
-section table{
+
+section table {
 	border-collapse: collapse;
+	width: 90vw;
 }
-section table td, th{
+
+.gno {
+	width: 5%;
+}
+
+.gna {
+	width: 80%;
+}
+
+.gda {
+	width: 15%;
+}
+
+section table td, th {
 	border: 1px solid black;
 }
-footer{
+
+section table a {
+	text-decoration: none;
+}
+
+footer {
 	width: 100%;
 	height: 5%;
 	background-color: black;
 	color: white;
 	display: flex;
-	align-items : center;
-	justify-content : center;
+	align-items: center;
+	justify-content: center;
 }
