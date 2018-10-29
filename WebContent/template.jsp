@@ -20,8 +20,8 @@
 			<nav>
 				<ul class="navul1">
 					<li><a href="home.do">홈</a></li>
-					<li><a href="">리스트</a></li>
-					<li><a href="">글쓰기</a></li>
+					<li><a href="list.do">리스트</a></li>
+					<li><a href="write.do">글쓰기</a></li>
 				</ul>
 			</nav>
 			<section>

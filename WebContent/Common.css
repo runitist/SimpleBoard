@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	border: 1px dotted blue;
 }
 html, body{
 	width: 100%;
@@ -20,6 +19,7 @@ header{
 	display: flex;
 	align-items : center;
 	justify-content : center;
+	background-color: aqua;
 }
 .mid{
 	width: 100%;
@@ -54,7 +54,12 @@ nav{
 section{
 	width: 90%;
 	height:100%;
-	
+}
+section table{
+	border-collapse: collapse;
+}
+section table td, th{
+	border: 1px solid black;
 }
 footer{
 	width: 100%;
